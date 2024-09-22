@@ -1,0 +1,1 @@
+browser.runtime.getBrowserInfo().then(info => document.getElementById("ver").innerHTML = "nightly " + info.version + " " + info.buildID.slice(6, 8) + "/" + info.buildID.slice(4, 6) + "/" + info.buildID.slice(0, 4));
